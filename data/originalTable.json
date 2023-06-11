@@ -1,0 +1,102 @@
+[
+  {
+    "Team": "Manchester City",
+    "Rank": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png"
+  },
+  {
+    "Team": "Arsenal",
+    "Rank": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png"
+  },
+  {
+    "Team": "Manchester United",
+    "Rank": 3,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/640px-Manchester_United_FC_crest.svg.png"
+  },
+  {
+    "Team": "Newcastle United",
+    "Rank": 4,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png"
+  },
+  {
+    "Team": "Liverpool",
+    "Rank": 5,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg.png"
+  },
+  {
+    "Team": "Brighton & Hove Albion",
+    "Rank": 6,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Brighton_%26_Hove_Albion_logo.svg/640px-Brighton_%26_Hove_Albion_logo.svg.png"
+  },
+  {
+    "Team": "Aston Villa",
+    "Rank": 7,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Aston_Villa_FC_crest_%282016%29.svg/1200px-Aston_Villa_FC_crest_%282016%29.svg.png"
+  },
+  {
+    "Team": "Totenham Hotspur",
+    "Rank": 8,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/1200px-Tottenham_Hotspur.svg.png"
+  },
+  {
+    "Team": "Brentford",
+    "Rank": 9,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Brentford_FC_crest.svg/800px-Brentford_FC_crest.svg.png"
+  },
+  {
+    "Team": "Fullham",
+    "Rank": 10,
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/eb/Fulham_FC_%28shield%29.svg"
+  },
+  {
+    "Team": "Crystal Palace",
+    "Rank": 11,
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a2/Crystal_Palace_FC_logo_%282022%29.svg"
+  },
+  {
+    "Team": "Chelsea",
+    "Rank": 12,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1200px-Chelsea_FC.svg.png"
+  },
+  {
+    "Team": "Wolverhampton Wanderers",
+    "Rank": 13,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Wolverhampton_Wanderers.svg/1200px-Wolverhampton_Wanderers.svg.png"
+  },
+  {
+    "Team": "West Ham United",
+    "Rank": 14,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/1200px-West_Ham_United_FC_logo.svg.png"
+  },
+  {
+    "Team": "Bournemouth",
+    "Rank": 15,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/AFC_Bournemouth_%282013%29.svg/800px-AFC_Bournemouth_%282013%29.svg.png"
+  },
+  {
+    "Team": "Nottigham Forest",
+    "Rank": 16,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Nottingham_Forest_F.C._logo.svg/800px-Nottingham_Forest_F.C._logo.svg.png"
+  },
+  {
+    "Team": "Everton",
+    "Rank": 17,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Everton_FC_logo.svg/800px-Everton_FC_logo.svg.png"
+  },
+  {
+    "Team": "Leicester City",
+    "Rank": 18,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Leicester_City_crest.svg/1200px-Leicester_City_crest.svg.png"
+  },
+  {
+    "Team": "Leeds United",
+    "Rank": 19,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Leeds_United_F.C._logo.svg/1200px-Leeds_United_F.C._logo.svg.png"
+  },
+  {
+    "Team": "Southampton",
+    "Rank": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/FC_Southampton.svg/1200px-FC_Southampton.svg.png"
+  }
+]
