@@ -7,15 +7,7 @@ export default function About() {
         About Page
       </h1>
       <p class="mt-8">
-        Visit{" "}
-        <a
-          href="https://solidjs.com"
-          target="_blank"
-          class="text-sky-600 hover:underline"
-        >
-          solidjs.com
-        </a>{" "}
-        to learn how to build Solid apps.
+        Just a simple about page to predict premier league table results.
       </p>
       <p class="my-4">
         <A href="/" class="text-sky-600 hover:underline">
