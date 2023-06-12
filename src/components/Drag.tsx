@@ -38,35 +38,40 @@ const Sortable = (props: any) => {
   return (
     <div
       use:sortable
-      class="sortable border-4 rounded-lg py-5 hover:cursor-pointer bg-blue-300 hover:bg-blue-400"
+      class={`sortable  rounded-lg py-4 hover:cursor-pointer bg-blue-300 hover:bg-blue-400 hover:border-green-600 my-1 ${
+        rank() == 18 ? " border-t-2 border-red-600 rounded-t-none" : "border-2"
+      }`}
       classList={{
         "opacity-35": sortable.isActiveDraggable,
         // "transition-transform": !!state.active.draggable,
       }}
     >
-      <div class="flex gap-10 pl-10">
-        <div>{rank()}</div>
+      {/* <div
+        class={`border-red-500 ${rank() == 18 ? "bt-2 border-2" : "invisible"}`}
+      /> */}
+      <div class={`grid grid-cols-4 w-full align-middle items-center`}>
+        <div class="col-span-1">{rank()}</div>
+
+        <img src={image()} width={50} height={50} draggable={false} />
+
+        <div class="">{props.item}</div>
         {change() == 0 ? (
           <></>
         ) : (
           <>
             {change() > 0 ? (
-              <div class="flex text-green-7">
+              <div class="flex text-green-7 text-right">
                 <AiOutlineArrowUp color="#16803c" size={24} />
-                <div class="text-green-700 font-bold">{change()}</div>
+                <div class="text-green-700 font-bold text-right">{change()}</div>
               </div>
             ) : (
-              <div class="flex">
+              <div class="flex text-right">
                 <AiOutlineArrowDown color="#16803c" size={24} />
-                <div class="text-red-500 font-bold">{change()}</div>
+                <div class="text-red-500 font-bold text-right">{change()}</div>
               </div>
             )}
           </>
         )}
-
-        <img src={image()} width={50} height={50} />
-
-        <div>{props.item}</div>
       </div>
     </div>
   );
@@ -103,7 +108,7 @@ export const SortableVerticalListExample = () => {
       collisionDetector={closestCenter}
     >
       <DragDropSensors />
-      <div class="column self-stretch w-1/3 mx-auto">
+      <div class="column self-stretch w-1/3 mx-auto ">
         <SortableProvider ids={ids()}>
           <For each={items()}>
             {(item) => <Sortable item={item} items={items()} />}
